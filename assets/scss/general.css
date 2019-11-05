@@ -1,3 +1,38 @@
+header {
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+}
+header nav {
+  background-color: #181b1deb;
+  height: 60px;
+  width: 100%;
+}
+header nav #logo {
+  width: 100px;
+  height: 60px;
+}
+header nav ul {
+  float: right;
+  margin: 0;
+}
+header nav ul li {
+  width: 80px;
+  border-left: 2px solid #f1aa22;
+  display: inline-block;
+  height: 60px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+header nav ul li a img {
+  height: 30px;
+  width: 30px;
+  padding-top: 15px;
+}
 
+body {
+  margin: 0;
+}
 
 /*# sourceMappingURL=general.css.map */

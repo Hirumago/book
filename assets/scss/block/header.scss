@@ -1,0 +1,34 @@
+header{
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+    nav{
+        background-color: $primary-color;
+        height: 60px;
+        width: 100%;
+        #logo{
+            width: 100px;
+            height: 60px;
+        }
+        ul{
+            float: right;
+            margin: 0;
+            li{
+                width: 80px;
+                border-left: 2px solid $secondary-color;
+                display: inline-block;
+                height: 60px;
+                text-align: center;
+                line-height: 20px;
+                cursor: pointer;
+                a{
+                    img{
+                        height: 30px;
+                        width: 30px;
+                        padding-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
