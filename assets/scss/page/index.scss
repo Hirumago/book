@@ -1,0 +1,8 @@
+body{
+    section{
+        padding: 25px;
+        article:not(.active){
+            display: none;
+        }
+    }
+}

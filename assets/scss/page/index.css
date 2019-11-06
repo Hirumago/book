@@ -1,3 +1,8 @@
-
+body section {
+  padding: 25px;
+}
+body section article:not(.active) {
+  display: none;
+}
 
 /*# sourceMappingURL=index.css.map */
