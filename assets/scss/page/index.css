@@ -4,5 +4,13 @@ body section {
 body section article:not(.active) {
   display: none;
 }
+body section article[data-article=twitch] iframe {
+  width: 100%;
+  height: auto;
+  min-height: 480px;
+}
+body section article h2 {
+  text-align: center;
+}
 
 /*# sourceMappingURL=index.css.map */
