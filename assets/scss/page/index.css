@@ -1,6 +1,12 @@
 body section {
   padding: 25px;
 }
+body section article {
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+  padding: 25px;
+}
 body section article:not(.active) {
   display: none;
 }
@@ -11,6 +17,17 @@ body section article[data-article=twitch] iframe {
 }
 body section article h2 {
   text-align: center;
+  margin-top: 0;
+}
+body section article .cv-image {
+  width: 100%;
+  height: auto;
+}
+body section article .gauge {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=index.css.map */

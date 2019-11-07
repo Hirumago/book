@@ -1,11 +1,5 @@
 <?php
-require_once 'vendor/autoload.php';
+$page = "index";
+$titlePage = "Book Kevin Guillier";
 
-$loader = new \Twig\Loader\FilesystemLoader('twig');
-$twig = new \Twig\Environment($loader, []);
-
-$data = array(
-    'title' => 'Hello world'
-);
-
-echo $twig->render('page/index.html.twig', $data);
+include_once 'includes/base.php';
