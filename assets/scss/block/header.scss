@@ -9,6 +9,7 @@ header{
         text-align: center;
         ul{
             list-style-type: none;
+            padding: 0;
             li{
                 width: 150px;
                 height: 150px;
@@ -25,6 +26,21 @@ header{
                     -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
                     -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
                     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.5);
+                    &:first-child{
+                        -webkit-box-shadow: 0 6px 10px $linkedin-color-rgb;
+                        -moz-box-shadow: 0 6px 10px $linkedin-color-rgb;
+                        box-shadow: 0 6px 10px $linkedin-color-rgb;
+                    }
+                    &:nth-of-type(2){
+                        -webkit-box-shadow: 0 6px 10px $secondary-color-rgb;
+                        -moz-box-shadow: 0 6px 10px $secondary-color-rgb;
+                        box-shadow: 0 6px 10px $secondary-color-rgb;
+                    }
+                    &:nth-of-type(3){
+                        -webkit-box-shadow: 0 6px 10px $twitch-color-rgb;
+                        -moz-box-shadow: 0 6px 10px $twitch-color-rgb;
+                        box-shadow: 0 6px 10px $twitch-color-rgb;
+                    }
                 }
                 &:first-child{
                     img{

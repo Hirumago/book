@@ -42,18 +42,25 @@
     <script src="assets/js/block/header.js"></script>
 
     <?php
-
     if ($page === "index"){
         ?>
         <script src="assets/js/raphael-2.1.1.js"></script>
         <script src="assets/js/justgage-1.3.1-revert.js"></script>
         <?php
     }
-
     ?>
 
 
     <script src="assets/js/page/<?php echo $page; ?>.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151900187-1"></script>-->
+<!--    <script>-->
+<!--        window.dataLayer = window.dataLayer || [];-->
+<!--        function gtag(){dataLayer.push(arguments);}-->
+<!--        gtag('js', new Date());-->
+<!---->
+<!--        gtag('config', 'UA-151900187-1');-->
+<!--    </script>-->
     </body>
 </html>
 
