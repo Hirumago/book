@@ -11,6 +11,9 @@ body section article .row {
   background-color: #ffffff;
   margin: 0;
 }
+body section article .row:last-of-type {
+  margin-bottom: 20px;
+}
 body section article:first-of-type {
   -webkit-box-shadow: 0 6px 10px rgba(14, 118, 168, 0.5);
   -moz-box-shadow: 0 6px 10px rgba(14, 118, 168, 0.5);
@@ -33,6 +36,22 @@ body section article:nth-of-type(2) .card > div {
 }
 body section article:nth-of-type(2) .card > div > div {
   padding: 10px 20px;
+}
+body section article:nth-of-type(2) .card > div .inner-card {
+  padding: 0;
+}
+@media (max-width: 768px) {
+  body section article:nth-of-type(2) .card > div .inner-card > div:first-of-type, body section article:nth-of-type(2) .card > div .inner-card > div:last-of-type {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  body section article:nth-of-type(2) .card > div .inner-card > div:first-of-type {
+    padding-left: 0;
+  }
+  body section article:nth-of-type(2) .card > div .inner-card > div:last-of-type {
+    padding-right: 0;
+  }
 }
 body section article:nth-of-type(3) {
   -webkit-box-shadow: 0 6px 10px rgba(100, 65, 165, 0.5);
@@ -86,6 +105,15 @@ body section article .row img {
   body section article .row > div:first-of-type {
     margin-bottom: 20px;
   }
+}
+body section article #legende {
+  padding: 0 30px;
+}
+body section article #legende p:last-of-type {
+  margin-bottom: 0;
+}
+body section article #legende p:last-of-type span.c-yellow {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

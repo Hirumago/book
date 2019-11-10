@@ -18,14 +18,31 @@
     </article>
     <article data-article="cv">
         <img src="assets/image/ardoise-2.svg" alt="banner curriculum vitae">
+        <div class="row" id="legende">
+            <p>Légendes :</p>
+            <p><span class="c-blue">Poste</span><span class="c-yellow">Formation</span></p>
+        </div>
+
         <div class="row">
             <div class="col-xs-12 col-md-6 card">
                 <div>
                     <img src="assets/image/cv-1.svg" alt="">
                     <div>
-                        <p>Mai 2019 - <span class="c-green">En cours</span> / Concepteur Développeur / MBP DIGITAL, Nantes</p>
-                        <p>Ajout et maintient de fonctionnalités du CRM Leizee. Création de site web et de nouvelles solutions en immobilier.</p>
-                        <p>Participation à l'organisation des différents projet.</p>
+                        <p>Mai 2019 - <span class="c-green">En cours</span> / <span class="c-blue">Concepteur Développeur</span> / MBP DIGITAL, Nantes -  <span class="c-yellow">Chef de projet en conception de SI</span> / IMIE - Campus Academy, Nantes</p>
+                        <div class="row inner-card">
+                            <div class="col-xs-12 col-md-6">
+                                <p>Ajout et maintient de fonctionnalités du CRM Leizee. Création de site web et de nouvelles solutions en immobilier.</p>
+                                <p>Participation à l'organisation des différents projet.</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <p>Les objectifs d'apprentissage de la formation : </p>
+                                <ul>
+                                    <li>Développer des compétences de veille technologique et d'évolution du SI.</li>
+                                    <li>Développer des compétences techniques, managériales (de projet ou d'équipe notamment), organisationnelles et/ou communicationnelles.</li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -33,81 +50,62 @@
                 <div>
                     <img src="assets/image/cv-2.svg" alt="">
                     <div>
-                        <p>Mai 2018 - Mai 2019 / Concepteur Développeur / MBP DIGITAL, Nantes</p>
-                        <p>Ajout et maintient de fonctionnalités du CRM Leizee. Création de site web et de nouvelles solutions en immobilier.</p>
+                        <p>Mai 2018 - Mai 2019 / <span class="c-blue">Concepteur Développeur</span> / MBP DIGITAL, Nantes - <span class="c-yellow">Concepteur développeur informatique</span> / IMIE, Nantes</p>
+                        <div class="row inner-card">
+                            <div class="col-xs-12 col-md-6">
+                                <p>Ajout et maintient de fonctionnalités du CRM Leizee. Création de site web et de nouvelles solutions en immobilier.</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <p>Les objectifs d'apprentissage de la formation : </p>
+                                <ul>
+                                    <li>Développer des composants d'interface</li>
+                                    <li>Développer une application n-tiers</li>
+                                    <li>Développer la persistance des données</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-xs-12 col-md-6 card col-md-offset-3">
+            <div class="col-xs-12 col-md-6 card">
                 <div>
                     <img src="assets/image/cv-3.svg" alt="">
                     <div>
-                        <p>Décembre 2016 - Mars 2017 / Développeur / ASMOZA, Nantes</p>
-                        <p>Création d’un outil de suivi des stats de club : création de projets, création de feuilles de graphiques, ajout de mesures (indicateur numérique, diagramme secteur, diagramme radar, histogramme) en fonction des données. Script utilisé : d3.js Langages : HTML/PHP/JavaScript.</p>
+                        <p>Février 2018 - Mai 2018 / <span class="c-yellow">Développeur web mobile (POEC)</span> / IMIE, Nantes</p>
+                        <div class="row inner-card">
+                            <div class="col-xs-12">
+                                <p>Apprentissage avancé de PHP et JavaScript, Méthodes Agile, SGBD. Re/découverte des frameworks : Symfony, Angular, Ionic. Développement dans un environnement Android.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
             <div class="col-xs-12 col-md-6 card">
                 <div>
                     <img src="assets/image/cv-4.svg" alt="">
                     <div>
-                        <p>Mai 2019 - <span class="c-green">En cours</span> / Chef de projet en conception de SI / IMIE / CAMPUS ACADEMY, Nantes</p>
-                        <p>Les objectifs d'apprentissage de la formation : </p>
-                        <ul>
-                            <li>Développer des compétences de veille technologique et d'évolution du SI.</li>
-                            <li>Développer des compétences techniques, managériales (de projet ou d'équipe notamment), organisationnelles et/ou communicationnelles.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 card">
-                <div>
-                    <img src="assets/image/cv-5.svg" alt="">
-                    <div>
-                        <p>Mai 2018 - Mai 2019 / Concepteur développeur informatique / IMIE, Nantes</p>
-                        <p>Les objectifs d'apprentissage de la formation : </p>
-                        <ul>
-                            <li>Développer des composants d'interface</li>
-                            <li>Développer une application n-tiers</li>
-                            <li>Développer la persistance des données</li>
-                        </ul>
+                        <p>Décembre 2016 - Mars 2017 / <span class="c-blue">Développeur</span> / ASMOZA, Nantes - <span class="c-yellow">Développeur logiciel</span> / IMIE, Nantes</p>
+                        <div class="row inner-card">
+                            <div class="col-xs-12 col-md-6">
+                                <p>Création d’un outil de suivi des stats de club : création de projets, création de feuilles de graphiques, ajout de mesures (indicateur numérique, diagramme secteur, diagramme radar, histogramme) en fonction des données. Script utilisé : d3.js Langages : HTML/PHP/JavaScript.</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <p>Analyse des besoins, Gestion de projet, Maquettage, HTML/CSS, SQL, PHP, JavaScript, langage Objet, découverte Symfony</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-xs-12 col-md-6 card">
-                <div>
-                    <img src="assets/image/cv-6.svg" alt="">
-                    <div>
-                        <p>Février 2018 - Mai 2018 / Développeur web mobile (POEC) / IMIE, Nantes</p>
-                        <p>Apprentissage avancé de PHP et JavaScript, Méthodes Agile, SGBD. Re/découverte des frameworks : Symfony, Angular, Ionic. Développement dans un environnement Android.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 card">
-                <div>
-                    <img src="assets/image/cv-7.svg" alt="">
-                    <div>
-                        <p>Juin 2016 - Mars 2017 / Développeur logiciel / IMIE, Nantes</p>
-                        <p>Analyse des besoins, Gestion de projet, Maquettage, HTML/CSS, SQL, PHP, JavaScript, langage Objet, découverte Symfony</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 card">
                 <div class="row">
+                    <p class="ta-center">Compétences en développement</p>
                     <div class="col-xs-12 col-md-3 ta-center">
                         <p>Front-end</p>
                         <div id="g1" class="gauge" data-label="HTML/CSS" data-value="9"></div>
@@ -149,11 +147,10 @@
             </div>
             <div class="col-xs-12 col-md-6">
                 <p>Voici ma chaine Twitch.</p>
-                <p>On y joue, et on y code avec mon émission "Just coding".</p>
-                <p>Dans celle-ci, je code selon une thématique ou je découvre de nouvelles technologies/techniques.</p>
+                <p>On y joue, et on y développe avec mon émission "Just coding".</p>
+                <p>Dans celle-ci, je développe selon une thématique ou je découvre de nouvelles technologies/techniques.</p>
                 <p>Le but est d'apprendre, transmettre, échanger des compétences et idées avec d'autres personnes.</p>
             </div>
-
         </div>
     </article>
 </section>

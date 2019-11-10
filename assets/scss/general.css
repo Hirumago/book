@@ -68,5 +68,11 @@ body .c-green {
 body p {
   font-weight: bold;
 }
+body .c-blue {
+  color: #0e76a8;
+}
+body .c-yellow {
+  color: #fbbc04;
+}
 
 /*# sourceMappingURL=general.css.map */
