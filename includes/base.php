@@ -30,8 +30,6 @@
         </title>
     </head>
     <body>
-    <h1>Kevin Guillier</h1>
-
     <?php include_once 'block/header.php'; ?>
 
     <?php include_once 'page/'.$page.'.php'; ?>
