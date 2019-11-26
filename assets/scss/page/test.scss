@@ -1,0 +1,39 @@
+@import "../variable";
+
+section{
+    padding: 10px 20px;
+    .banner{
+        padding: 0 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        @media screen and (min-width: 768px) {
+            img{
+                max-height: calc(100vh - 70px);
+            }
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        span{
+            display: none;
+        }
+        &:hover{
+            img{
+                opacity: 50%;
+                transition: 0.35s ease-in-out;
+                position: relative;
+                z-index: 1;
+            }
+            span{
+                display: block;
+                position: absolute;
+                z-index: 2;
+                font-size: 26px;
+                font-weight: bold;
+                top: calc(50% - 13px);
+                width: 100%;
+            }
+        }
+    }
+}

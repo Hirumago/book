@@ -8,13 +8,9 @@
         <link rel="icon" type="image/png" href="assets/images/book_fav.png" />
         <link rel="stylesheet" href="assets/scss/general.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min-grid-responsive.css">
-        <?php
-        if ($page === "index"){
-            ?>
-            <link rel="stylesheet" href="assets/scss/page/index.css">
-            <?php
-        }
-        ?>
+
+        <link rel="stylesheet" href="assets/scss/page/<?php echo $page; ?>.css">
+
 
         <title>
             <?php

@@ -1,17 +1,25 @@
 <header>
     <nav>
         <ul>
-            <li class="active" data-article="bio">
-                Biographie
-<!--                <img src="assets/image/photo.jpg" alt="photo kevin guillier">-->
+            <li data-article="bio">
+                A propos de moi
             </li>
             <li data-article="cv">
                 Curriculum Vitae
-<!--                <img src="assets/image/cv-icon.svg" alt="logo cv kevin guillier">-->
             </li>
             <li data-article="twitch">
                 Streaming
-<!--                <img src="assets/image/twitch-icon.svg" alt="logo twich yogosha">-->
+            </li>
+        </ul>
+        <ul>
+            <li data-article="bio">
+                <img src="assets/image/bio-icon-2.svg" alt="icon bio">
+            </li>
+            <li data-article="cv">
+                <img src="assets/image/cv-icon-3.svg" alt="icon cv">
+            </li>
+            <li data-article="twitch">
+                <img src="assets/image/streaming-icon.svg" alt="icon streaming">
             </li>
         </ul>
         <ul>
