@@ -3,8 +3,9 @@
 @import "block/header";
 
 body{
-    margin: 0;
-    font-family: Helvetica,Arial,sans-serif;
+    margin: 0 !important;
+    font-family: Helvetica,Arial,sans-serif !important;
+    background-color: #efefef !important;
     h1{
         text-align: center;
     }

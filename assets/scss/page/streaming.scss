@@ -1,0 +1,10 @@
+@import "../variable";
+
+section{
+    padding-top: 10px;
+    #streaming{
+        box-shadow: 1px 1px 12px $tertiary-color;
+        background-color: #0e76a8;
+        height: 500px;
+    }
+}

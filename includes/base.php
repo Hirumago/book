@@ -10,7 +10,14 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min-grid-responsive.css">
 
         <link rel="stylesheet" href="assets/scss/page/<?php echo $page; ?>.css">
-
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <?php
+        if($page === "test"){
+            ?>
+            <link rel="stylesheet" href="assets/css/slick.css">
+            <?php
+        }
+        ?>
 
         <title>
             <?php
@@ -33,13 +40,17 @@
     <?php include_once 'block/footer.php'; ?>
 
     <script src="assets/js/jquery-3.4.1.js"></script>
-    <script src="assets/js/block/header.js"></script>
 
     <?php
     if ($page === "index"){
         ?>
         <script src="assets/js/raphael-2.1.1.js"></script>
         <script src="assets/js/justgage-1.3.1-revert.js"></script>
+        <?php
+    }
+    else if($page === "test"){
+        ?>
+        <script src="assets/js/slick.min.js"></script>
         <?php
     }
     ?>

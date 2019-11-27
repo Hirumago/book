@@ -1,24 +1,24 @@
 <header>
     <nav>
         <ul>
-            <li data-article="bio">
-                A propos de moi
+            <li>
+                <a href="about-me">A propos</a>
             </li>
-            <li data-article="cv">
-                Curriculum Vitae
+            <li>
+                <a href="cv">Curriculum Vitae</a>
             </li>
-            <li data-article="twitch">
-                Streaming
+            <li>
+                <a href="streaming">Streaming</a>
             </li>
         </ul>
         <ul>
-            <li data-article="bio">
+            <li>
                 <img src="assets/image/bio-icon-2.svg" alt="icon bio">
             </li>
-            <li data-article="cv">
+            <li>
                 <img src="assets/image/cv-icon-3.svg" alt="icon cv">
             </li>
-            <li data-article="twitch">
+            <li>
                 <img src="assets/image/streaming-icon.svg" alt="icon streaming">
             </li>
         </ul>
