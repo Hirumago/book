@@ -1,16 +1,29 @@
 <section>
     <div id="slider-banner">
-        <div class="banner">
-            <span>A propos</span>
-            <img src="assets/image/photo-banner.jpg" alt="banner photo">
+        <div class="banner" data-url="about-me">
+            <a href="about-me">
+                <div>
+                    <div>A propos</div>
+                    <img src="assets/image/photo-banner.jpg" alt="banner photo">
+                </div>
+            </a>
         </div>
         <div class="banner">
-            <span>Curriculum Vitae</span>
-            <img src="assets/image/cv-banner.jpg" alt="banner curriculum vitae">
+            <a href="cv">
+                <div>
+                    <div>Curriculum Vitae</div>
+                    <img src="assets/image/cv-banner.jpg" alt="banner curriculum vitae">
+                </div>
+
+            </a>
         </div>
         <div class="banner">
-            <span>Streaming</span>
-            <img src="assets/image/twitch-logo-banner.jpg" alt="banner streaming">
+            <a href="streaming">
+                <div>
+                    <div>Streaming</div>
+                    <img src="assets/image/twitch-logo-banner.jpg" alt="banner streaming">
+                </div>
+            </a>
         </div>
     </div>
 </section>

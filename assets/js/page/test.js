@@ -22,10 +22,16 @@ $(function(){
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
     });
+
+    $('.banner span').mouseup(function(){
+       console.log('test')
+    });
+
+    $('.slick-slide').on('click', function (e){
+        let slideClicked = $(e.currentTarget).attr("data-url");
+        console.log(slideClicked);
+    })
 });
 
