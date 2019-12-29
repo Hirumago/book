@@ -103,8 +103,8 @@ body p {
 body .c-blue {
   color: #0e76a8;
 }
-body .c-yellow {
-  color: #fbbc04;
+body .c-secondary {
+  color: #006400;
 }
 body a {
   text-decoration: none !important;

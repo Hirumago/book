@@ -20,7 +20,7 @@
         <img src="assets/image/ardoise-2.svg" alt="banner curriculum vitae">
         <div class="row" id="legende">
             <p>Légendes :</p>
-            <p><span class="c-blue">Poste</span><span class="c-yellow">Formation</span></p>
+            <p><span class="c-blue">Poste</span><span class="c-secondary">Formation</span></p>
         </div>
 
         <div class="row">
@@ -28,7 +28,7 @@
                 <div>
                     <img src="assets/image/cv-1.svg" alt="">
                     <div>
-                        <p>Mai 2019 - <span class="c-green">En cours</span> / <span class="c-blue">Concepteur Développeur</span> / MBP DIGITAL, Nantes -  <span class="c-yellow">Chef de projet en conception de SI</span> / IMIE - Campus Academy, Nantes</p>
+                        <p>Mai 2019 - <span class="c-green">En cours</span> / <span class="c-blue">Concepteur Développeur</span> / MBP DIGITAL, Nantes -  <span class="c-secondary">Chef de projet en conception de SI</span> / IMIE - Campus Academy, Nantes</p>
                         <div class="row inner-card">
                             <div class="col-xs-12 col-md-6">
                                 <p>Ajout et maintient de fonctionnalités du CRM Leizee. Création de site web et de nouvelles solutions en immobilier.</p>
@@ -50,7 +50,7 @@
                 <div>
                     <img src="assets/image/cv-2.svg" alt="">
                     <div>
-                        <p>Mai 2018 - Mai 2019 / <span class="c-blue">Concepteur Développeur</span> / MBP DIGITAL, Nantes - <span class="c-yellow">Concepteur développeur informatique</span> / IMIE, Nantes</p>
+                        <p>Mai 2018 - Mai 2019 / <span class="c-blue">Concepteur Développeur</span> / MBP DIGITAL, Nantes - <span class="c-secondary">Concepteur développeur informatique</span> / IMIE, Nantes</p>
                         <div class="row inner-card">
                             <div class="col-xs-12 col-md-6">
                                 <p>Ajout et maintient de fonctionnalités du CRM Leizee. Création de site web et de nouvelles solutions en immobilier.</p>
@@ -74,7 +74,7 @@
                 <div>
                     <img src="assets/image/cv-3.svg" alt="">
                     <div>
-                        <p>Février 2018 - Mai 2018 / <span class="c-yellow">Développeur web mobile (POEC)</span> / IMIE, Nantes</p>
+                        <p>Février 2018 - Mai 2018 / <span class="c-secondary">Développeur web mobile (POEC)</span> / IMIE, Nantes</p>
                         <div class="row inner-card">
                             <div class="col-xs-12">
                                 <p>Apprentissage avancé de PHP et JavaScript, Méthodes Agile, SGBD. Re/découverte des frameworks : Symfony, Angular, Ionic. Développement dans un environnement Android.</p>
@@ -87,7 +87,7 @@
                 <div>
                     <img src="assets/image/cv-4.svg" alt="">
                     <div>
-                        <p>Décembre 2016 - Mars 2017 / <span class="c-blue">Développeur</span> / ASMOZA, Nantes - <span class="c-yellow">Développeur logiciel</span> / IMIE, Nantes</p>
+                        <p>Décembre 2016 - Mars 2017 / <span class="c-blue">Développeur</span> / ASMOZA, Nantes - <span class="c-secondary">Développeur logiciel</span> / IMIE, Nantes</p>
                         <div class="row inner-card">
                             <div class="col-xs-12 col-md-6">
                                 <p>Création d’un outil de suivi des stats de club : création de projets, création de feuilles de graphiques, ajout de mesures (indicateur numérique, diagramme secteur, diagramme radar, histogramme) en fonction des données. Script utilisé : d3.js Langages : HTML/PHP/JavaScript.</p>

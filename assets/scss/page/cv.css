@@ -1,10 +1,83 @@
 section {
   padding-top: 10px;
 }
-section #cv {
-  box-shadow: 1px 1px 12px #4a525b;
+section #cv .cv-title {
+  margin-top: 40px;
+}
+section #cv > div:not(:last-of-type):not(.cv-title) {
+  margin-top: 80px;
+}
+section #cv .cv-title, section #cv .cv-start {
+  padding: 10px;
+  text-align: center;
+  color: #0e76a8;
+  font-weight: bold;
+  border: 2px solid #0e76a8;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+section #cv .cv-title:nth-of-type(2) {
+  border: none;
+  font-size: 1.1em;
+}
+section #cv .cv-card div {
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section #cv .cv-card div p {
+  margin: 0;
+  text-align: center;
+}
+section #cv .cv-card div p:first-of-type {
+  color: #0e76a8;
+}
+section #cv .cv-card div:first-of-type {
+  margin-top: calc(-125px / 2 + 10px);
+}
+section #cv .cv-card div:not(:first-of-type) {
+  margin-top: 10px;
+}
+section #cv .cv-tree {
+  text-align: center;
+}
+section #cv .cv-tree div {
+  margin: auto;
+}
+section #cv .cv-tree div.cv-tree-round {
+  width: 20px;
+  height: 20px;
   background-color: #0e76a8;
-  height: 500px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+section #cv .cv-tree div.cv-tree-round p {
+  display: none;
+}
+section #cv .cv-tree div.cv-tree-round:hover p {
+  display: block;
+  position: absolute;
+  border: 2px solid #0e76a8;
+  padding: 5px;
+  margin-top: -34px;
+  margin-left: calc(-100px + 10px);
+  background-color: white;
+  border-radius: 5px;
+  width: 200px;
+  z-index: 1;
+}
+section #cv .cv-tree div.cv-tree-bar {
+  width: 12px;
+  background-color: #0e76a8;
+  margin-top: -5px;
+}
+section #cv .cv-tree div.cv-tree-bar:not(:last-of-type) {
+  margin-bottom: -5px;
+  height: 125px;
+}
+section #cv .cv-tree div.cv-tree-bar:last-of-type {
+  height: 75px;
 }
 
 /*# sourceMappingURL=cv.css.map */
