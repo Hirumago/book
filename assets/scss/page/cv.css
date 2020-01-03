@@ -1,8 +1,5 @@
-section {
-  padding-top: 10px;
-}
 section #cv .cv-title {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 section #cv > div:not(:last-of-type):not(.cv-title) {
   margin-top: 80px;

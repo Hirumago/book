@@ -10,8 +10,6 @@
             <div class="col-xs-5 cv-title">
                 Formation
             </div>
-
-
             <div class="col-xs-5 cv-card">
                 <div>
                     <p>Concepteur Développeur</p>

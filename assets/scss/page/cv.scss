@@ -1,10 +1,9 @@
 @import "../variable";
 
 section{
-    padding-top: 10px;
     #cv{
         .cv-title{
-            margin-top: 40px;
+            margin-top: 20px;
         }
         > div:not(:last-of-type):not(.cv-title){
             margin-top: 80px;

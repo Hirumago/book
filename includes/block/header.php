@@ -3,7 +3,7 @@
         <ul id="logo-header">
             <li>
                 <a href="index">
-                    <img src="assets/image/logo-accueil.svg" alt="logo">
+                    <img src="assets/images/logo-accueil.svg" alt="logo">
                 </a>
             </li>
         </ul>
@@ -17,42 +17,54 @@
             <li>
                 <a href="streaming">Streaming</a>
             </li>
+            <li>
+                <a href="github">Mes projets</a>
+            </li>
         </ul>
         <ul>
             <li>
                 <a href="about-me">
-                    <img src="assets/image/bio-icon-2.svg" alt="icon bio">
+                    <img src="assets/images/bio-icon-2.svg" alt="icon bio">
                 </a>
             </li>
             <li>
                 <a href="cv">
-                    <img src="assets/image/cv-icon-3.svg" alt="icon cv">
+                    <img src="assets/images/cv-icon-3.svg" alt="icon cv">
                 </a>
             </li>
             <li>
                 <a href="streaming">
-                    <img src="assets/image/streaming-icon.svg" alt="icon streaming">
+                    <img src="assets/images/streaming-icon.svg" alt="icon streaming">
+                </a>
+            </li>
+            <li>
+                <a href="github">
+                    <img src="assets/images/github-icon.png" alt="icon github" class="medium-icon">
                 </a>
             </li>
         </ul>
-
         <ul id="logo-header-mini">
             <li>
                 <a href="index">
-                    <img src="assets/image/logo-mini-black.svg" alt="logo">
+                    <img src="assets/images/logo-mini-black.svg" alt="logo">
                 </a>
             </li>
         </ul>
-
         <ul>
             <li>
-                <img src="assets/image/twitch-small-icon.svg" alt="icon twitch yogosha">
+                <a href="https://www.twitch.tv/yogosha" target="_blank">
+                    <img src="assets/images/twitch-small-icon.svg" alt="icon twitch yogosha">
+                </a>
             </li>
             <li>
-                <img src="assets/image/twitter-small-icon.svg" alt="icon twitter yogosha">
+                <a href="https://twitter.com/guillier_kevin" target="_blank">
+                    <img src="assets/images/twitter-small-icon.svg" alt="icon twitter yogosha">
+                </a>
             </li>
             <li>
-                <img src="assets/image/linkedin-small-icon.svg" alt="icon twitter yogosha">
+                <a href="https://www.linkedin.com/in/kevin-guillier-7b1161124/" target="_blank">
+                    <img src="assets/images/linkedin-small-icon.svg" alt="icon twitter yogosha">
+                </a>
             </li>
         </ul>
     </nav>

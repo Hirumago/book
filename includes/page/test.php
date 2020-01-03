@@ -4,7 +4,7 @@
             <a href="about-me">
                 <div>
                     <div>A propos</div>
-                    <img src="assets/image/photo-banner.jpg" alt="banner photo">
+                    <img src="assets/images/index/photo-banner.jpg" alt="banner photo">
                 </div>
             </a>
         </div>
@@ -12,7 +12,7 @@
             <a href="cv">
                 <div>
                     <div>Curriculum Vitae</div>
-                    <img src="assets/image/cv-banner.jpg" alt="banner curriculum vitae">
+                    <img src="assets/images/index/cv-banner.jpg" alt="banner curriculum vitae">
                 </div>
 
             </a>
@@ -21,7 +21,7 @@
             <a href="streaming">
                 <div>
                     <div>Streaming</div>
-                    <img src="assets/image/twitch-logo-banner.jpg" alt="banner streaming">
+                    <img src="assets/images/index/twitch-logo-banner.jpg" alt="banner streaming">
                 </div>
             </a>
         </div>
