@@ -1,0 +1,17 @@
+RewriteEngine On
+
+Options -Indexes
+
+ErrorDocument 403 https://www.book-kevin-guillier.com/forbidden
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+RewriteRule ^about-me$ about-me.php [L]
+RewriteRule ^cv$ cv.php [L]
+RewriteRule ^github$ github.php [L]
+RewriteRule ^index$ index.php [L]
+RewriteRule ^streaming$ streaming.php [L]
+RewriteRule ^forbidden forbidden.php [L]
+
+

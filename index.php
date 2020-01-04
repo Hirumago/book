@@ -1,6 +1,5 @@
 <?php
-//$page = "index";
-$page = "test";
+$page = "index";
 $titlePage = "Book Kevin Guillier";
 
 include_once 'includes/base.php';

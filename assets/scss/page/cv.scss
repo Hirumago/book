@@ -1,85 +1,90 @@
 @import "../variable";
 
 section{
-    #cv{
-        .cv-title{
-            margin-top: 20px;
-        }
-        > div:not(:last-of-type):not(.cv-title){
-            margin-top: 80px;
-        }
-        .cv-title, .cv-start{
-            padding: 10px;
-            text-align: center;
-            color: $linkedin-color;
-            font-weight: bold;
-            border: 2px solid $linkedin-color;
-            border-radius: 5px;
-            font-size: 1.2em;
-        }
-        .cv-title:nth-of-type(2){
-            border: none;
-            font-size: 1.1em;
-        }
-        .cv-card{
-            div{
-                height: 125px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                p{
-                    margin: 0;
-                    text-align: center;
-                    &:first-of-type{
-                        color: $linkedin-color;
-                    }
-                }
-                &:first-of-type{
-                    margin-top: calc(-125px / 2 + 10px);
-                }
-                &:not(:first-of-type){
-                    margin-top: 10px;
-                }
+    > div{
+        display: flex;
+        align-items: center;
+        min-height: calc(100vh - 70px - 20px);
+        #cv{
+            .cv-title{
+                margin-top: 20px;
             }
-        }
-        .cv-tree{
-            text-align: center;
-            div{
-                margin: auto;
-                &.cv-tree-round{
-                    width: 20px;
-                    height: 20px;
-                    background-color: #0e76a8;
-                    border-radius: 100%;
-                    cursor: pointer;
+            > div:not(:last-of-type):not(.cv-title){
+                margin-top: 80px;
+            }
+            .cv-title, .cv-start{
+                padding: 10px;
+                text-align: center;
+                color: $linkedin-color;
+                font-weight: bold;
+                border: 2px solid $linkedin-color;
+                border-radius: 5px;
+                font-size: 1.2em;
+            }
+            .cv-title:nth-of-type(2){
+                border: none;
+                font-size: 1.1em;
+            }
+            .cv-card{
+                div{
+                    height: 125px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                     p{
-                        display: none;
-                    }
-                    &:hover{
-                        p{
-                            display: block;
-                            position: absolute;
-                            border: 2px solid $linkedin-color;
-                            padding: 5px;
-                            margin-top: -34px;
-                            margin-left: calc(-100px + 10px);
-                            background-color: white;
-                            border-radius: 5px;
-                            width: 200px;
-                            z-index: 1;
+                        margin: 0;
+                        text-align: center;
+                        &:first-of-type{
+                            color: $linkedin-color;
                         }
                     }
-                }
-                &.cv-tree-bar{
-                    width: 12px;
-                    background-color: #0e76a8;
-                    margin-top: -5px;
-                    &:not(:last-of-type){
-                        margin-bottom: -5px;
-                        height: 125px;
+                    &:first-of-type{
+                        margin-top: calc(-125px / 2 + 10px);
                     }
-                    &:last-of-type{
-                        height: 75px;
+                    &:not(:first-of-type){
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .cv-tree{
+                text-align: center;
+                div{
+                    margin: auto;
+                    &.cv-tree-round{
+                        width: 20px;
+                        height: 20px;
+                        background-color: #0e76a8;
+                        border-radius: 100%;
+                        cursor: pointer;
+                        p{
+                            display: none;
+                        }
+                        &:hover{
+                            p{
+                                display: block;
+                                position: absolute;
+                                border: 2px solid $linkedin-color;
+                                padding: 5px;
+                                margin-top: -34px;
+                                margin-left: calc(-100px + 10px);
+                                background-color: white;
+                                border-radius: 5px;
+                                width: 200px;
+                                z-index: 1;
+                            }
+                        }
+                    }
+                    &.cv-tree-bar{
+                        width: 12px;
+                        background-color: #0e76a8;
+                        margin-top: -5px;
+                        &:not(:last-of-type){
+                            margin-bottom: -5px;
+                            height: 125px;
+                        }
+                        &:last-of-type{
+                            height: 75px;
+                        }
                     }
                 }
             }

@@ -3,16 +3,16 @@
         <div id="about-me" class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
             <div class="col-xs-2 col-md-3">
                 <div class="col-xs-12 col-md-6">
-                    <img src="assets/images/about-me/html5.png" alt="logo html5">
+                    <img src="assets/images/page/about-me/html5.png" alt="logo html5">
                 </div>
                 <div class="col-xs-12 col-md-6 col-md-offset-6">
-                    <img src="assets/images/about-me/css3.png" alt="logo css3">
+                    <img src="assets/images/page/about-me/css3.png" alt="logo css3">
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <img src="assets/images/about-me/js.png" alt="logo javascript">
+                    <img src="assets/images/page/about-me/js.png" alt="logo javascript">
                 </div>
                 <div class="col-xs-12 col-md-6 col-md-offset-6">
-                    <img src="assets/images/about-me/jquery.png" alt="logo jquery">
+                    <img src="assets/images/page/about-me/jquery.png" alt="logo jquery">
                 </div>
             </div>
             <div class="col-xs-8 col-md-6">
@@ -28,16 +28,16 @@
             </div>
             <div class="col-xs-2 col-md-3">
                 <div class="col-xs-12 col-md-6 col-md-offset-6">
-                    <img src="assets/images/about-me/php.png" alt="logo php">
+                    <img src="assets/images/page/about-me/php.png" alt="logo php">
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <img src="assets/images/about-me/ionic.png" alt="logo ionic">
+                    <img src="assets/images/page/about-me/ionic.png" alt="logo ionic">
                 </div>
                 <div class="col-xs-12 col-md-6 col-md-offset-6">
-                    <img src="assets/images/about-me/symfony.png" alt="logo symfony">
+                    <img src="assets/images/page/about-me/symfony.png" alt="logo symfony">
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <img src="assets/images/about-me/react.png" alt="logo react">
+                    <img src="assets/images/page/about-me/react.png" alt="logo react">
                 </div>
             </div>
         </div>

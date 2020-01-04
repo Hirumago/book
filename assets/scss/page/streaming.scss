@@ -1,10 +1,20 @@
 @import "../variable";
 
 section{
-    padding-top: 10px;
-    #streaming{
-        box-shadow: 1px 1px 12px $tertiary-color;
-        background-color: #0e76a8;
-        height: 500px;
+    padding-top: 20px;
+    > div {
+        display: flex;
+        align-items: center;
+        min-height: calc(100vh - 70px - 20px);
+        #streaming{
+            > p:first-of-type{
+                margin-top: 0;
+            }
+            iframe{
+                margin-top: 20px;
+                width: 100%;
+            }
+        }
     }
+
 }

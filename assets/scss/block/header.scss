@@ -36,17 +36,23 @@ header {
             margin: 0;
             display: inline-block;
             &:nth-of-type(3){
-                margin-left: -20px;
+                margin-left: -60px;
             }
-            @media (orientation: portrait) and (max-width: 768px) {
+            @media (orientation: portrait) and (max-width: 767.9px) {
                 &:nth-of-type(3) {
                     margin-right: 0;
+                    margin-left: -40px;
                 }
                 &:nth-of-type(5) {
                     margin-left: 0;
                 }
                 li{
                     margin: 0 5px !important;
+                }
+            }
+            @media (orientation: portrait) and (max-width: 349.9px){
+                &:nth-of-type(3){
+                    margin-left: 0;
                 }
             }
             li {
@@ -79,7 +85,7 @@ header {
         }
     }
 
-    @media screen and (max-width: 768px) {
+    @media (max-width: 991.9px) {
         nav {
             ul{
                 &#logo-header, &:nth-of-type(2) {
@@ -95,7 +101,7 @@ header {
             text-align: center;
         }
     }
-    @media screen and (min-width: 768px) {
+    @media (min-width: 992px) {
         nav {
             ul:nth-of-type(3), #logo-header-mini {
                 display: none;

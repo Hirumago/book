@@ -5,14 +5,14 @@
 
         <meta name="description" content="Retrouvez mon site CV. Technologies utilisées : HTML/SCSS, PHP/mySQL, JavaScript/Jquery" />
 
-        <link rel="icon" type="image/png" href="assets/images/book_fav.png" />
+        <link rel="icon" type="image/png" href="assets/images/book-fav.png" />
         <link rel="stylesheet" href="assets/scss/general.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min-grid-responsive.css">
 
         <link rel="stylesheet" href="assets/scss/page/<?php echo $page; ?>.css">
         <link rel="stylesheet" href="assets/css/slick.css">
         <?php
-        if($page === "test"){
+        if($page === "index"){
             ?>
             <link rel="stylesheet" href="assets/css/slick.css">
             <?php
@@ -42,13 +42,7 @@
     <script src="assets/js/jquery-3.4.1.js"></script>
 
     <?php
-    if ($page === "index"){
-        ?>
-        <script src="assets/js/raphael-2.1.1.js"></script>
-        <script src="assets/js/justgage-1.3.1-revert.js"></script>
-        <?php
-    }
-    else if($page === "test"){
+    if($page === "index"){
         ?>
         <script src="assets/js/slick.min.js"></script>
         <?php
@@ -58,14 +52,14 @@
 
     <script src="assets/js/page/<?php echo $page; ?>.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151900187-1"></script>-->
-<!--    <script>-->
-<!--        window.dataLayer = window.dataLayer || [];-->
-<!--        function gtag(){dataLayer.push(arguments);}-->
-<!--        gtag('js', new Date());-->
-<!---->
-<!--        gtag('config', 'UA-151900187-1');-->
-<!--    </script>-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151900187-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-151900187-1');
+    </script>
     </body>
 </html>
 

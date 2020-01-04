@@ -1,17 +1,37 @@
 $(function(){
-    let gauges = $(".gauge");
-    for (let i = 0; i < gauges.length; i++){
-        let idGauge = gauges[i].id;
-        let labelGauge = $(gauges[i]).attr('data-label');
-        let valueGauge = $(gauges[i]).attr('data-value');
-        let g = new JustGage({
-            id: idGauge,
-            value: valueGauge,
-            min: 0,
-            max: 10,
-            label: labelGauge,
-            donut: true,
-            labelFontColor : "#3333FF"
-        });
-    }
+    $('#slider-banner').slick({
+        dots: false,
+        infinite: true,
+        autoplay: false,
+        arrows: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $('.banner span').mouseup(function(){
+       console.log('test')
+    });
+
+    $('.slick-slide').on('click', function (e){
+        let slideClicked = $(e.currentTarget).attr("data-url");
+        console.log(slideClicked);
+    })
 });
+

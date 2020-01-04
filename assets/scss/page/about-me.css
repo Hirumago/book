@@ -1,30 +1,35 @@
 section {
   padding-top: 20px;
 }
-section #about-me > div {
+section > div {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 70px - 20px);
+}
+section > div #about-me > div {
   padding: 0;
 }
-section #about-me > div:nth-of-type(2) {
+section > div #about-me > div:nth-of-type(2) {
   padding-left: 10px;
   padding-right: 10px;
 }
-section #about-me > div:nth-of-type(2) > p:first-of-type {
+section > div #about-me > div:nth-of-type(2) > p:first-of-type {
   margin-top: 0;
 }
-section #about-me > div > div {
+section > div #about-me > div > div {
   text-align: center;
   padding: 0;
 }
-section #about-me > div > div img {
+section > div #about-me > div > div img {
   width: 100%;
   max-width: 310px;
   height: auto;
 }
-section #about-me > div:first-of-type > div:not(:first-of-type), section #about-me > div:last-of-type > div:not(:first-of-type) {
+section > div #about-me > div:first-of-type > div:not(:first-of-type), section > div #about-me > div:last-of-type > div:not(:first-of-type) {
   margin-top: 30px;
 }
-@media (orientation: portrait) and (max-width: 768px) {
-  section #about-me > div:first-of-type > div:not(:first-of-type), section #about-me > div:last-of-type > div:not(:first-of-type) {
+@media (orientation: portrait) and (max-width: 767.9px) {
+  section > div #about-me > div:first-of-type > div:not(:first-of-type), section > div #about-me > div:last-of-type > div:not(:first-of-type) {
     margin-top: 120px;
   }
 }

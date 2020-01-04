@@ -1,10 +1,17 @@
 section {
-  padding-top: 10px;
+  padding-top: 20px;
 }
-section #streaming {
-  box-shadow: 1px 1px 12px #4a525b;
-  background-color: #0e76a8;
-  height: 500px;
+section > div {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 70px - 20px);
+}
+section > div #streaming > p:first-of-type {
+  margin-top: 0;
+}
+section > div #streaming iframe {
+  margin-top: 20px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=streaming.css.map */
