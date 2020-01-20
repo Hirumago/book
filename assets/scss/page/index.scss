@@ -52,7 +52,24 @@ section{
         .slick-list {
             margin: 0 5px;
         }
+
+        .slick-prev, .slick-next{
+            position: absolute;
+            z-index: 2;
+            background-color: transparent;
+            border: transparent;
+            color: $secondary-color-opacity;
+            font-size: 60px;
+            text-shadow: $secondary-color-opacity 1px -1px 8px;
+            bottom: calc(50% - 60px / 2);
+            height: 60px;
+            line-height: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .slick-next{
+            right: 0;
+        }
     }
-
-
 }

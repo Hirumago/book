@@ -11,6 +11,7 @@ $(function(){
             {
                 breakpoint: 992,
                 settings: {
+                    arrows: true,
                     slidesToShow: 2,
                     slidesToScroll: 2,
                 }
@@ -18,6 +19,7 @@ $(function(){
             {
                 breakpoint: 576,
                 settings: {
+                    arrows: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
