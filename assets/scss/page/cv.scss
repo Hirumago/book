@@ -50,29 +50,45 @@ section{
                 text-align: center;
                 div{
                     margin: auto;
+                    &.cv-tree-desktop{
+                        font-weight: bold;
+                        position: absolute;
+                        width: calc(50% - 25px);
+                        &:nth-of-type(2n){
+                            right: 15px;
+                        }
+                        @media (max-width: 991.9px) {
+                            display: none;
+                        }
+                    }
                     &.cv-tree-round{
                         width: 20px;
                         height: 20px;
                         background-color: #0e76a8;
                         border-radius: 100%;
-                        cursor: pointer;
+                        @media (max-width: 991.9px) {
+                            cursor: pointer;
+                        }
                         p{
                             display: none;
                         }
-                        &:hover{
-                            p{
-                                display: block;
-                                position: absolute;
-                                border: 2px solid $linkedin-color;
-                                padding: 5px;
-                                margin-top: -34px;
-                                margin-left: calc(-100px + 10px);
-                                background-color: white;
-                                border-radius: 5px;
-                                width: 200px;
-                                z-index: 1;
+                        @media (max-width: 991.9px) {
+                            &:hover{
+                                p{
+                                    display: block;
+                                    position: absolute;
+                                    border: 2px solid $linkedin-color;
+                                    padding: 5px;
+                                    margin-top: -34px;
+                                    margin-left: calc(-100px + 10px);
+                                    background-color: white;
+                                    border-radius: 5px;
+                                    width: 200px;
+                                    z-index: 1;
+                                }
                             }
                         }
+
                     }
                     &.cv-tree-bar{
                         width: 12px;
