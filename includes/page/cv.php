@@ -1,6 +1,6 @@
 <section>
     <div>
-        <div id="cv" class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <div id="cv" class="col-xs-12 col-sm-8 col-sm-offset-2">
             <div class="col-xs-5 col-md-4 cv-title">
                 Expériences
             </div>
