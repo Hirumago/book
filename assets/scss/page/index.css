@@ -52,6 +52,9 @@ section #slider-banner .slick-prev, section #slider-banner .slick-next {
   padding-left: 10px;
   padding-right: 10px;
 }
+section #slider-banner .slick-prev:focus, section #slider-banner .slick-next:focus {
+  outline-color: transparent !important;
+}
 section #slider-banner .slick-next {
   right: 0;
 }

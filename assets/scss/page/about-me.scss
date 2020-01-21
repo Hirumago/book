@@ -7,31 +7,32 @@ section{
         align-items: center;
         min-height: calc(100vh - 70px - 20px);
         #about-me{
-            > div {
+            > div{
                 padding: 0;
-                &:nth-of-type(2){
-                    padding-left: 10px;
-                    padding-right: 10px;
-                    > p:first-of-type{
+                text-align: left;
+                div{
+                    p:first-of-type{
                         margin-top: 0;
                     }
-                }
-                > div{
-                    text-align: center;
-                    padding: 0;
+                    &:first-of-type{
+                        padding-right: 0;
+                    }
+                    &:nth-of-type(3){
+                        padding-left: 0;
+                    }
                     img{
                         width: 100%;
-                        max-width: 310px;
+                        max-width: 100px;
                         height: auto;
                     }
-                }
-            }
-            > div:first-of-type, > div:last-of-type{
-                > div:not(:first-of-type){
-                    @media (orientation: portrait) and (max-width: 767.9px) {
-                        margin-top: 120px;
+                    @media (min-width: 768px) {
+                        &.col-left{
+                            text-align: left;
+                        }
+                        &.col-right{
+                            text-align: right;
+                        }
                     }
-                    margin-top: 30px;
                 }
             }
         }

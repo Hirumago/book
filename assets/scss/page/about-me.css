@@ -8,29 +8,28 @@ section > div {
 }
 section > div #about-me > div {
   padding: 0;
+  text-align: left;
 }
-section > div #about-me > div:nth-of-type(2) {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-section > div #about-me > div:nth-of-type(2) > p:first-of-type {
+section > div #about-me > div div p:first-of-type {
   margin-top: 0;
 }
-section > div #about-me > div > div {
-  text-align: center;
-  padding: 0;
+section > div #about-me > div div:first-of-type {
+  padding-right: 0;
 }
-section > div #about-me > div > div img {
+section > div #about-me > div div:nth-of-type(3) {
+  padding-left: 0;
+}
+section > div #about-me > div div img {
   width: 100%;
-  max-width: 310px;
+  max-width: 100px;
   height: auto;
 }
-section > div #about-me > div:first-of-type > div:not(:first-of-type), section > div #about-me > div:last-of-type > div:not(:first-of-type) {
-  margin-top: 30px;
-}
-@media (orientation: portrait) and (max-width: 767.9px) {
-  section > div #about-me > div:first-of-type > div:not(:first-of-type), section > div #about-me > div:last-of-type > div:not(:first-of-type) {
-    margin-top: 120px;
+@media (min-width: 768px) {
+  section > div #about-me > div div.col-left {
+    text-align: left;
+  }
+  section > div #about-me > div div.col-right {
+    text-align: right;
   }
 }
 

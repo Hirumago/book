@@ -66,6 +66,9 @@ section{
             line-height: 60px;
             padding-left: 10px;
             padding-right: 10px;
+            &:focus{
+                outline-color: transparent !important;
+            }
         }
 
         .slick-next{
