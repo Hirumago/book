@@ -43,9 +43,8 @@ section #slider-banner .slick-prev, section #slider-banner .slick-next {
   z-index: 2;
   background-color: transparent;
   border: transparent;
-  color: rgba(251, 188, 4, 0.75);
+  color: #1d1d1d;
   font-size: 60px;
-  text-shadow: rgba(251, 188, 4, 0.75) 1px -1px 8px;
   bottom: calc(50% - 60px / 2);
   height: 60px;
   line-height: 60px;
